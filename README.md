@@ -1,15 +1,6 @@
 # Bigdata-Flink-Java
 
 ## Team Members
-- Harish Thadka
-- Vikas Baswapuram
-- Rohith Chittimalla
-- Deekshith Maram
-- Sumanth Reddy Naidu
-- Puneeth Annam
-
-## Contributors
-
 <table>
   <tr>
     <td align="center"><a href="https://github.com/harishThadka"><img src="https://avatars.githubusercontent.com/u/60013824?s=400&u=4519aa7212ab3cef634b23bec1c89f1b76c261ed&v=4" width="100px;" alt=""/><br /><sub><b>Harish Thadka</b></sub></a><br /><a href="https://github.com/harishThadka" title="Code">💻</a></td>
@@ -21,19 +12,49 @@
     </tr>
 `   </table>
 
-## Apache Flink:
-
+## What is Apache Flink?🤔
 ### Introduction:
 - Apache Flink is an open-source, unified stream-processing and batch-processing framework developed by the Apache Software Foundation
-- The core of Apache Flink is a distributed streaming data-flow engine written in Java and Scala
+- The core of Apache Flink is a distributed streaming data-flow engine written in Java, Scala and python
 - Flink provides a high-throughput, low-latency streaming engine
 - Flink offers substantially higher processing speeds to spark and hadoop.
 
+### Flink Architecture
+![](flink_arch.jpg)
+### Prerequisites
+- Apache Flink
+- Java 8 or later versions
+- IntelliJ IDE or Eclipse IDE
+- NetCat
+### Features of Apache Flink
+- It has a streaming processor, which can run both batch and stream programs.
+- APIs available in Java, Scala and Python.
+- Can easily integrate with Apache Hadoop, Apache MapReduce, Apache Spark, HBase and other big data tools.
+- Provides Graph Processing, Machine Learning, Complex Event Processing libraries.
+### More about Apache flink
+- https://en.wikipedia.org/wiki/Apache_Flink
+- https://docs.cloudera.com/csa/1.2.0/flink-overview/topics/csa-flink-overview.html
+- https://blogs.oracle.com/javamagazine/streaming-analytics-with-java-and-apache-flink
+- https://www.tutorialspoint.com/apache_flink/apache_flink_quick_guide.htm
+## What is Java?🤔
+### Introduction:
+- Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.
+- Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture
+-Java was originally developed by James Gosling at Sun Microsystems (which has since been acquired by Oracle) and released in 1995 as a core component of Sun Microsystems' Java platform. 
+- According to Oracle, 3 billion devices run on Java
+### More about Apache Flink with Java:
+- https://ci.apache.org/projects/flink/flink-docs-release-1.2/quickstart/java_api_quickstart.html
+- https://www.baeldung.com/apache-flink
+### Team members demonstration Topics:
 
-
-## Vikas:
-
-### Topic: Introduction to Flink and Getting started with Java and demonstrating the WordCount:
+- Harish Thaka: Finding Prime numbers on Apache Flink
+- Vikas Baswarpuram: WordCount Apache Flink Application
+- Rohith Chittimala: Apache Flink Application on palindrome
+- Deekshith Maram:
+- Sumanth reddy naidu:
+- Puneeth Annam: Sorting list on Apache Flink
+## Vikas Baswapuram:
+### Demonstration Topic : Introduction to Flink and Getting started with Java and demonstrating the WordCount:
 
 ### Introduction to Flink:
 
@@ -84,8 +105,22 @@ To overcome this issue right click on the project and select Properties, click o
 - Start coding and write the apis in the java file to do the desired operation.
 
 ### Resources:
-
 - https://mycupoftea00.medium.com/how-to-run-apache-flink-locally-b20735523ee1
 - https://ci.apache.org/projects/flink/flink-docs-release-1.2/quickstart/setup_quickstart.html
 - https://www.toolsqa.com/java/maven/create-new-maven-project-eclipse/
 
+## Harish Thadka:
+### Demonstration Topic : Finding Prime numbers on Apache Flink with java
+
+## Rohith Chittimala: 
+### Demonstration Topic : Apache Flink Application on palindrome
+
+
+## Deekshith Maram:
+### Demonstration Topic : 
+
+## Sumanth Reddy:
+### Demonstration Topic : 
+
+## Puneeth Annam:
+### Demonstration Topic : Sorting list on Apache Flink
