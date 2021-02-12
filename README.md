@@ -1,5 +1,4 @@
 # Bigdata-Flink-Java
-
 ## Team Members
 <table>
   <tr>
@@ -22,10 +21,10 @@
 ### Flink Architecture
 ![](flink_arch.jpg)
 ### Prerequisites
-- Apache Flink
-- Java 8 or later versions
-- IntelliJ IDE or Eclipse IDE
-- NetCat
+- [Apache Flink](https://www.apache.org/dyn/closer.lua/flink/flink-1.12.1/flink-1.12.1-bin-scala_2.11.tgz)
+- [Java 8](https://www.java.com/en/download/) or later versions
+- [IntelliJ IDE](https://www.jetbrains.com/idea/download/#section=windows) or [Eclipse IDE](https://www.eclipse.org/ide/)
+- [NetCat](https://nmap.org/download.html)
 ### Features of Apache Flink
 - It has a streaming processor, which can run both batch and stream programs.
 - APIs available in Java, Scala and Python.
@@ -47,8 +46,8 @@
 - https://www.baeldung.com/apache-flink
 ### Team members demonstration Topics:
 
-- Harish Thaka: Finding Prime numbers on Apache Flink
 - Vikas Baswarpuram: WordCount Apache Flink Application
+- Harish Thaka: Finding Prime numbers on Apache Flink
 - Rohith Chittimala: Apache Flink Application on palindrome
 - Deekshith Maram:
 - Sumanth reddy naidu:
