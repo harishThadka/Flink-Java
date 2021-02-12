@@ -33,7 +33,7 @@
 
 ## Vikas:
 
-### Topic: Introduction to Flink and Getting started with Java and demonstarting the WordCount:
+### Topic: Introduction to Flink and Getting started with Java and demonstrating the WordCount:
 
 ### Introduction to Flink:
 
@@ -53,6 +53,23 @@
 ![](7-zip_extract.PNG)
 
 - Set up system variable ```FLINK_HOME``` and configure it to the ```C:\flink-1.11.2``` folder location and configure the path accordingly.
+
+
+### Using Flink on Maven:
+
+- To demonstrate the maven project I am using the ```eclipse IDE```.
+
+- Steps to start the maven project. ``` Open eclipse IDE -> File -> New -> Other -> Maven -> Maven Project```.
+
+- After using the above steps click on next and you will get a new window where you have to select the ```Group Id```, ```Artifact Id```, ```Version```. Please select them as shown in the below image. This can be done just by typing in the Filter field.
+![](Maven_startup.PNG)
+
+-  Then you will be directed to another window which looks like the image below. You can choose the Package name of your choice. Also make sure to check if the other fields are correct.
+![](Project_Package_Name.PNG)
+
+- Once the project is created go to the target folder of the maven project check the pom.xml file where you ca find the details as shown below.
+![](pom_XML.PNG)
+
 
 ### Resources:
 
