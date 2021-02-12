@@ -41,15 +41,16 @@
 
 - You will have to download the suggested mirror site for the download. Image is provided below for the reference.
 
-![](Apache_download.png)
+![](Apache_download.PNG)
 
 - After the file is downloaded untar the file. This can be done using either ```powershell``` or extracting the files using ```7-zip```.
 
 - The command for powershell is as follows: ```tar -xvf <filename.tgz>```.
-```Powershell
-My powershell command would be ```tar -xvf flink-1.12.1-bin-scala_2.11.tgz```
+
+-My powershell command would be ```Powershell
+ tar -xvf flink-1.12.1-bin-scala_2.11.tgz
 ```
-- If you are using the 7-zip then here is the refernce image to extarct the file to the location.(Preferably C drive).
+- If you are using the 7-zip then here is the reference image to extract the file to the location.(Preferably C drive).
 ![](7-zip_extract.PNG)
 
 
