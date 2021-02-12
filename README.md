@@ -54,4 +54,9 @@
 
 - Set up system variable ```FLINK_HOME``` and configure it to the ```C:\flink-1.11.2``` folder location and configure the path accordingly.
 
+### Resources:
+
+- https://mycupoftea00.medium.com/how-to-run-apache-flink-locally-b20735523ee1
+- https://ci.apache.org/projects/flink/flink-docs-release-1.2/quickstart/setup_quickstart.html
+- https://www.toolsqa.com/java/maven/create-new-maven-project-eclipse/
 
