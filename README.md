@@ -47,9 +47,8 @@
 
 - The command for powershell is as follows: ```tar -xvf <filename.tgz>```.
 
--My powershell command would be ```Powershell
- tar -xvf flink-1.12.1-bin-scala_2.11.tgz
-```
+- My powershell command would be ```tar -xvf flink-1.12.1-bin-scala_2.11.tgz```.
+
 - If you are using the 7-zip then here is the reference image to extract the file to the location.(Preferably C drive).
 ![](7-zip_extract.PNG)
 
