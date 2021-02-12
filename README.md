@@ -52,4 +52,6 @@
 - If you are using the 7-zip then here is the reference image to extract the file to the location.(Preferably C drive).
 ![](7-zip_extract.PNG)
 
+- Set up system variable ```FLINK_HOME``` and configure it to the ```C:\flink-1.11.2``` folder location and configure the path accordingly.
+
 
