@@ -70,6 +70,18 @@
 - Once the project is created go to the target folder of the maven project check the pom.xml file where you ca find the details as shown below.
 ![](pom_XML.PNG)
 
+- Check the dependencies under the tag dependencies where all the flink dependencies are auto generated with the mave project. Here is an image of the dependencies of my project.
+![](dependencies.PNG)
+
+```Powershell
+If you try to add a new class it might show you some error stating "This is not a java source folder". 
+To overcome this issue right click on the project and select Properties, click on the Project Facets and then click on "Convert to faceted form" and then select java, Apply and close you will now be able to add a new java class file.
+```
+- The above step is to be followed if there is an error else ignore.
+
+- Then run the project selecting the maven test option to build the maven dependencies.
+
+- Start coding and write the apis in the java file to do the desired operation.
 
 ### Resources:
 
