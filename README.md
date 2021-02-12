@@ -44,6 +44,7 @@
 ### More about Apache Flink with Java:
 - https://ci.apache.org/projects/flink/flink-docs-release-1.2/quickstart/java_api_quickstart.html
 - https://www.baeldung.com/apache-flink
+- https://www.tutorialdocs.com/article/first-flink-app.html
 
 ## Group data source:
 - [Football Data: Expected Goals and Other Metrics](https://www.kaggle.com/slehkyi/extended-football-stats-for-european-leagues-xg)
