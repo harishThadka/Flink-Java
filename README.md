@@ -44,14 +44,17 @@
 ### More about Apache Flink with Java:
 - https://ci.apache.org/projects/flink/flink-docs-release-1.2/quickstart/java_api_quickstart.html
 - https://www.baeldung.com/apache-flink
+
+## Group data source:
+-
 ## Team members demonstration Topics:
 
 - Vikas Baswarpuram: **WordCount Apache Flink Application**
-- Harish Thaka: **Finding Prime numbers on Apache Flink**
+- Harish Thaka: **Sorting list on Apache Flink**
 - Rohith Chittimala: **Apache Flink Application on palindrome**
-- Deekshith Maram:
+- Deekshith Maram: **Apache Flink Application on  Aggregation**
 - Sumanth reddy naidu:
-- Puneeth Annam: **Sorting list on Apache Flink**
+- Puneeth Annam: 
 ## Vikas Baswapuram:
 ### Demonstration Topic : Introduction to Flink and Getting started with Java and demonstrating the WordCount:
 
@@ -109,7 +112,7 @@ To overcome this issue right click on the project and select Properties, click o
 - https://www.toolsqa.com/java/maven/create-new-maven-project-eclipse/
 
 ## Harish Thadka:
-### Demonstration Topic : Finding Prime numbers on Apache Flink with java
+### Demonstration Topic : Sorting list on Apache Flink
 
 ## Rohith Chittimala: 
 ### Demonstration Topic : Apache Flink Application on palindrome
@@ -122,4 +125,4 @@ To overcome this issue right click on the project and select Properties, click o
 ### Demonstration Topic : 
 
 ## Puneeth Annam:
-### Demonstration Topic : Sorting list on Apache Flink
+### Demonstration Topic : 
