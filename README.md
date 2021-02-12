@@ -30,3 +30,8 @@
 - Flink offers substantially higher processing speeds to spark and hadoop.
 
 
+
+## Vikas:
+
+### Topic: Introduction to Flink and Getting started with Java and demonstarting the WordCount:
+
