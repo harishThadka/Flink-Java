@@ -46,12 +46,12 @@
 - https://www.baeldung.com/apache-flink
 ## Team members demonstration Topics:
 
-- **Vikas Baswarpuram: WordCount Apache Flink Application**
-- **Harish Thaka: Finding Prime numbers on Apache Flink**
-- **Rohith Chittimala: Apache Flink Application on palindrome**
-- **Deekshith Maram:**
-- **Sumanth reddy naidu:**
-- **Puneeth Annam: Sorting list on Apache Flink**
+- Vikas Baswarpuram: **WordCount Apache Flink Application**
+- Harish Thaka: **Finding Prime numbers on Apache Flink**
+- Rohith Chittimala: **Apache Flink Application on palindrome**
+- Deekshith Maram:
+- Sumanth reddy naidu:
+- Puneeth Annam: **Sorting list on Apache Flink**
 ## Vikas Baswapuram:
 ### Demonstration Topic : Introduction to Flink and Getting started with Java and demonstrating the WordCount:
 
