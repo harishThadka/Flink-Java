@@ -115,6 +115,57 @@ To overcome this issue right click on the project and select Properties, click o
 ## Harish Thadka:
 ### Demonstration Topic : Sorting Words on Apache Flink
 
+### Installation:
+
+- Prerequisites:
+  1. maven
+  1. openjdk
+  1. NetBeans IDE
+
+- Downlaod Apache Flink from this link: https://www.apache.org/dyn/closer.lua/flink/flink-1.12.1/flink-1.12.1-bin-scala_2.11.tgz
+- Put the .tgz file in C:\ folder
+- Un-tar it (using Bash) and change into the directory.  The $ indicates a Bash prompt.
+```
+tar -xzf <filename.tgz>
+cd <folder>
+```
+- Next download Net cat from this link: https://nmap.org/download.html
+### Setup environment variables:
+- Windows + Edit the System Environment Variables / Environment Variables / System variables (bottom half). Note:  Use the version you installed in the following. 
+    1. JAVA_HOME = C:\Program Files\OpenJDK\jdk-version folder
+    1. FLINK_HOME =  C:\flink-version folder
+    1. M2_HOME = C:\ProgramData\chocolatey\lib\maven\apache-maven-version
+- Path - must include (make sure you have only one JDK location in your path!)
+1. %JAVA_HOME%\bin OR C:\Program Files\OpenJDK\jdk-version\bin (or similar, NOT both!)
+1. %M2_HOME%\bin
+1. %FLINK_HOME%\bin
+
+
+### Run Apache Flink in Apache NetBeans IDE
+
+- Open NetBeans IDE -> File -> New Project. Select Java with Maven then Project from Archetype
+
+![](./harish/maven.PNG)
+
+- Click Next, Search Flink and select 'flink-quickstart-java' and give your own project Name . click on finish
+
+- Make sure pom.xml has below flink dependencies:
+```
+<dependency>
+  <groupId>org.apache.flink</groupId>
+  <artifactId>flink-java</artifactId>
+  <version>${flink.version}</version>
+  <scope>compile</scope>
+</dependency>
+<dependency>
+  <groupId>org.apache.flink</groupId>
+  <artifactId>flink-streaming-java_${scala.binary.version}</artifactId>
+  <version>${flink.version}</version>
+  <scope>compile</scope>
+</dependency>
+```
+- Create new Java file with filename= SortWords
+- Copy code from this link [code](./sortWords.java) and paste it:
 ## Rohith Chittimala: 
 ### Demonstration Topic : Searching word on Apache Flink Application
 
