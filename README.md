@@ -154,6 +154,9 @@ After the above steps you will see the pom.xml which would look like this.
 - https://mycupoftea00.medium.com/how-to-run-apache-flink-locally-b20735523ee1
 - https://ci.apache.org/projects/flink/flink-docs-release-1.2/quickstart/setup_quickstart.html
 - https://www.toolsqa.com/java/maven/create-new-maven-project-eclipse/
+- https://github.com/wuchong/my-flink-project
+- https://mvnrepository.com/artifact/org.apache.flink
+
 
 ## Harish Thadka:
 ### Demonstration Topic : Sorting Words on Apache Flink
