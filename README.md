@@ -128,6 +128,27 @@ After the above steps you will see the pom.xml which would look like this.
 
 ![](output.png)
 
+### Prerequisites:
+
+1. openjdk
+1. maven
+1. NetBeans IDE
+
+### Edit the System Environment Variables:
+
+- Add these new paths
+
+1. JAVA_HOME = C:\Program Files\OpenJDK\jdk-version folder
+1. FLINK_HOME =  C:\flink-version folder
+1. M2_HOME = C:\ProgramData\chocolatey\lib\maven\apache-maven-version
+
+- Path - must include 
+
+1. %JAVA_HOME%\bin 
+1. %M2_HOME%\bin
+1. %FLINK_HOME%\bin
+
+```Make sure you have only one JDK location in your path.```
 
 ### Resources:
 - https://mycupoftea00.medium.com/how-to-run-apache-flink-locally-b20735523ee1
