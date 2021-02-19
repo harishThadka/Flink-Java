@@ -54,7 +54,7 @@
 - Harish Thaka: **Sorting words on Apache Flink**
 - Rohith Chittimala: **Searching word on Apache Flink Application**
 - Deekshith Maram: **Apache Flink Application on  Aggregation**
-- Sumanth reddy naidu: **Repetition words on Apache Flink**
+- Sumanth reddy naidu: **Total number of words on Apache Flink**
 - Puneeth Annam: **Maximum number on Apache Flink**
 ## Vikas Baswapuram:
 ### Demonstration Topic : Introduction to Flink and Getting started with Java and demonstrating the WordCount:
@@ -189,7 +189,7 @@ ncat -l 9000
 ### Demonstration Topic : Apache Flink Application on  Aggregation 
 
 ## Sumanth Reddy:
-### Demonstration Topic : Repetition words on Apache Flink
+### Demonstration Topic : Total number of words on Apache Flink
 
 ## Puneeth Annam:
 ### Demonstration Topic : Maximum number on Apache Flink
