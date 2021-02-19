@@ -57,6 +57,7 @@
 - Sumanth reddy naidu: **Repetition words on Apache Flink**
 - Puneeth Annam: **Maximum number on Apache Flink**
 ## Vikas Baswapuram:
+
 ### Demonstration Topic : Introduction to Flink and Getting started with Java and demonstrating the WordCount:
 
 ### Introduction to Flink:
@@ -81,31 +82,52 @@
 
 ### Using Flink on Maven:
 
-- To demonstrate the maven project I am using the ```eclipse IDE```.
+- To demonstrate the maven project I am using the ```Netbeans IDE```.
 
-- Steps to start the maven project. ``` Open eclipse IDE -> File -> New -> Other -> Maven -> Maven Project```.
+- Steps to start the maven project.
 
-- After using the above steps click on next and you will get a new window where you have to select the ```Group Id```, ```Artifact Id```, ```Version```. Please select them as shown in the below image. This can be done just by typing in the Filter field.
-![](Maven_startup.PNG)
+- Step 1:
 
--  Then you will be directed to another window which looks like the image below. You can choose the Package name of your choice. Also make sure to check if the other fields are correct.
-![](Project_Package_Name.PNG)
+ ``` Open NetBeans IDE -> File -> New Project. Select Java with Maven then Project from Archetype```
 
-- Once the project is created go to the target folder of the maven project check the pom.xml file where you ca find the details as shown below.
-![](pom_XML.PNG)
+![](Netbeans_newProject.png)
 
-- Check the dependencies under the tag dependencies where all the flink dependencies are auto generated with the mave project. Here is an image of the dependencies of my project.
-![](dependencies.PNG)
+- Step 2:
 
+``` Select flink-quickstart-data -> Entered desired Project Name and Package Name and create them.```
+
+After the above steps you will see the pom.xml which would look like this.
+![](pom.png)
+
+- You will also have to add dependencies of the maven with flink. Here I am also putting up the dependencies I have used.
 ```Powershell
-If you try to add a new class it might show you some error stating "This is not a java source folder". 
-To overcome this issue right click on the project and select Properties, click on the Project Facets and then click on "Convert to faceted form" and then select java, Apply and close you will now be able to add a new java class file.
+<dependencies>
+		<!-- Apache Flink dependencies -->
+		<!-- These dependencies are provided, because they should not be packaged into the JAR file. -->
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-java</artifactId>
+			<version>${flink.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-streaming-java_${scala.binary.version}</artifactId>
+			<version>${flink.version}</version>
+			<scope>compile</scope>
+		</dependency>
 ```
-- The above step is to be followed if there is an error else ignore.
+-  The dependencies can be explored [here.](https://mvnrepository.com/artifact/org.apache.flink)
 
-- Then run the project selecting the maven test option to build the maven dependencies.
+- After these steps now add in the java class file and insert your code.
 
-- Start coding and write the apis in the java file to do the desired operation.
+- Before running the code first we need to clean build maven project and then start the ncat- server with the following command in any terminal.
+``` ncat -l 9000```
+
+- Then run the java file and once we file starts running then we can enter the data into the terminal and we can see the output of the java function in the output console of the IDE.
+
+![](output.png)
+
 
 ### Resources:
 - https://mycupoftea00.medium.com/how-to-run-apache-flink-locally-b20735523ee1
