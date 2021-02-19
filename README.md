@@ -150,6 +150,11 @@ After the above steps you will see the pom.xml which would look like this.
 
 ```Make sure you have only one JDK location in your path.```
 
+## Video Link:
+
+https://drive.google.com/file/d/1wDbzfOq9G3YbbAugm-R3p6cOEqaYVoTn/view?usp=sharing
+
+
 ### Resources:
 - https://mycupoftea00.medium.com/how-to-run-apache-flink-locally-b20735523ee1
 - https://ci.apache.org/projects/flink/flink-docs-release-1.2/quickstart/setup_quickstart.html
