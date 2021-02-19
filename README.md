@@ -114,7 +114,7 @@ To overcome this issue right click on the project and select Properties, click o
 
 ## Harish Thadka:
 ### Demonstration Topic : Sorting Words on Apache Flink
-
+- Video link: 
 ### Installation:
 
 - Prerequisites:
@@ -139,8 +139,6 @@ cd <folder>
 1. %JAVA_HOME%\bin OR C:\Program Files\OpenJDK\jdk-version\bin (or similar, NOT both!)
 1. %M2_HOME%\bin
 1. %FLINK_HOME%\bin
-
-
 ### Run Apache Flink in Apache NetBeans IDE
 
 - Open NetBeans IDE -> File -> New Project. Select Java with Maven then Project from Archetype
@@ -165,7 +163,24 @@ cd <folder>
 </dependency>
 ```
 - Create new Java file with filename= SortWords
-- Copy code from this link [code](./sortWords.java) and paste it:
+- Copy code from this [link](https://github.com/harishThadka/Flink-Java/blob/main/harish/SortWords.java) and paste it:
+- Run the ncat server at the terminal using the command 
+```
+ncat -l 9000
+```
+- Run the Java file
+- Enter any data in terminal. Sorting output will be shown in Netbeans Ouput
+
+
+![](./harish/output.PNG)
+
+### Issues:
+- https://stackoverflow.com/questions/54106187/apache-flink-java-lang-noclassdeffounderror/54106784
+### References:
+- https://ci.apache.org/projects/flink/flink-docs-release-1.2/dev/datastream_api.html
+- https://riptutorial.com/apache-flink
+- https://github.com/wuchong/my-flink-project
+
 ## Rohith Chittimala: 
 ### Demonstration Topic : Searching word on Apache Flink Application
 
