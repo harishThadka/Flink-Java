@@ -234,6 +234,39 @@ ncat -l 9000
 
 ## Rohith Chittimala: 
 ### Demonstration Topic : Searching word on Apache Flink Application
+- Video Link:
+
+### Prerequisites:
+
+- Openjdk
+- Maven
+- NetBeans IDE
+
+### Running Apache Flink in NetBeans IDE
+
+- Open NetBeans IDE then File then New Project.
+- Select Java with Maven then project from Archetype.
+
+![](./rohith/javaWithMaven.PNG)
+
+- Click Next then search Flink and select 'flink-quickstart-java' and write project name and click on Finish.
+- Go to the ``` pom.xml ``` file of the project to verify the availabilities of flink dependencies.
+
+![](./rohith/pom-xml.PNG)
+
+- Create a new java file with "SearchNumber" as the filename.
+- Here is the code for the [SearchNumber](https://github.com/harishThadka/Flink-Java/blob/main/rohith/SearchWords.java) program.
+- First clean and build maven project and start the ncat server with the following command in the terminal.
+ ``` ncat -l 9000 ```
+- After running the above command we can see the results in the netbeans output console.
+- Here is the Image:
+
+![](./rohith/output.PNG)
+
+### References:
+- https://github.com/wuchong/my-flink-project
+- https://mvnrepository.com/artifact/org.apache.flink
+- https://riptutorial.com/apache-flink
 
 
 ## Deekshith Maram:
