@@ -228,9 +228,11 @@ ncat -l 9000
 ### Issues:
 - https://stackoverflow.com/questions/54106187/apache-flink-java-lang-noclassdeffounderror/54106784
 ### References:
-- https://ci.apache.org/projects/flink/flink-docs-release-1.2/dev/datastream_api.html
-- https://riptutorial.com/apache-flink
+- https://ci.apache.org/projects/flink/flink-docs-release-1.9/getting-started/tutorials/local_setup.html
+- https://www.tutorialdocs.com/article/first-flink-app.html
 - https://github.com/wuchong/my-flink-project
+- https://www.varonis.com/blog/netcat-commands/
+
 
 ## Rohith Chittimala: 
 ### Demonstration Topic : Searching word on Apache Flink Application
