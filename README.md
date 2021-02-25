@@ -249,7 +249,7 @@ ncat -l 9000
 - Open NetBeans IDE then File then New Project.
 - Select Java with Maven then project from Archetype.
 
-![](./rohith/javaWithMaven.PNG)
+![](./rohith/javaWithMaven.png)
 
 - Click Next then search Flink and select 'flink-quickstart-java' and write project name and click on Finish.
 - Go to the ``` pom.xml ``` file of the project to verify the availabilities of flink dependencies.
