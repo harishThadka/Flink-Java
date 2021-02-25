@@ -264,9 +264,9 @@ ncat -l 9000
 ![](./rohith/output.PNG)
 
 ### References:
-- https://github.com/wuchong/my-flink-project
-- https://mvnrepository.com/artifact/org.apache.flink
+- https://www.tutorialdocs.com/article/first-flink-app.html
 - https://riptutorial.com/apache-flink
+- https://github.com/wuchong/my-flink-project
 
 
 ## Deekshith Maram:
