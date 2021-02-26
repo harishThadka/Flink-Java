@@ -275,8 +275,6 @@ ncat -l 9000
 - https://github.com/wuchong/my-flink-project
 
 
-## Deekshith Maram:
-### Demonstration Topic : Apache Flink Application on  Aggregation 
 
 ## Sumanth Reddy:
 ### Demonstration Topic : Total number of words on Apache Flink
@@ -297,6 +295,15 @@ ncat -l 9000
 
 ## Deekshith Maram:
 
+## Demonstration Topic : Apache Flink Application on finding the even numbers. 
+
 ### Video Link:
 
 https://use.vg/yC1f7G
+
+
+### Overview of the Topic:
+
+- There might be a very large data set with many records where there might be a scenario to divide the dataset into two groups assuming every alaternate record to a new group.
+- In such scenarios we can use a simple program where we can separate the records based on the odd and even rule. 
+- This demonstration is suited for such scenarios and I am demonstrating the same with a program which gives out all the even numbers from a given list.
