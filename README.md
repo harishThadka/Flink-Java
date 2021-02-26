@@ -157,7 +157,7 @@ https://drive.google.com/file/d/1wDbzfOq9G3YbbAugm-R3p6cOEqaYVoTn/view?usp=shari
 
 ### Code Link:
 
-![](https://github.com/harishThadka/Flink-Java/blob/main/SocketWindowWordCount.java)
+(https://github.com/harishThadka/Flink-Java/blob/main/SocketWindowWordCount.java)
 
 
 ### Resources:
