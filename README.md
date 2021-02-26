@@ -307,3 +307,11 @@ https://use.vg/yC1f7G
 - There might be a very large data set with many records where there might be a scenario to divide the dataset into two groups assuming every alaternate record to a new group.
 - In such scenarios we can use a simple program where we can separate the records based on the odd and even rule. 
 - This demonstration is suited for such scenarios and I am demonstrating the same with a program which gives out all the even numbers from a given list.
+
+### Prerequisites:
+
+- Flink installed on the local machine.
+- Netbeans IDE(The IDE might be eclipse or IntelliJ. I have used Netbeans here.)
+- Maven Installed on the machine.
+- Openjdk
+- ncat Server
