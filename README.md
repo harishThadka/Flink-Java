@@ -304,7 +304,7 @@ https://use.vg/yC1f7G
 
 ### Overview of the Topic:
 
-- There might be a very large data set with many records where there might be a scenario to divide the dataset into two groups assuming every alaternate record to a new group.
+- There might be a very large data set with many records where there might be a scenario to divide the dataset into two groups assuming every alternate record to a new group.
 - In such scenarios we can use a simple program where we can separate the records based on the odd and even rule. 
 - This demonstration is suited for such scenarios and I am demonstrating the same with a program which gives out all the even numbers from a given list.
 
@@ -325,7 +325,7 @@ https://use.vg/yC1f7G
 
  ### Using Netbeans to create a Project:
 
--  Onec ethe Netbeans is downloaded, Open it and click on the new Project and select the Java with Maven Project along with Project with archetype.
+-  Once the Netbeans is downloaded, Open it and click on the new Project and select the Java with Maven Project along with Project with archetype.
 - After this a pop up window will be shown where you can scroll down to flink quick start archetype or just eneter the apache.flink in the search box.
 - The eneter the project name and enter Finish to create the project.
 - Here are the screenshots for the above steps.
