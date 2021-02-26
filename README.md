@@ -342,6 +342,14 @@ https://use.vg/yC1f7G
 ### Running the Code:
 
 - Here is the link to the code.
+https://github.com/harishThadka/Flink-Java/tree/main/Dixith_Code
+
+### References:
+
+- https://ci.apache.org/projects/flink/flink-docs-release-1.2/quickstart/java_api_quickstart.html
+- https://platform.netbeans.org/tutorials/nbm-maven-quickstart.html
+- https://www.varonis.com/blog/netcat-commands/
+- https://www.youtube.com/watch?v=Z3OdtQPYvIM&ab_channel=LeetcodecodinginterviewquestionsandBigData
 
 
 
