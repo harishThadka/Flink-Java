@@ -315,3 +315,11 @@ https://use.vg/yC1f7G
 - Maven Installed on the machine.
 - Openjdk
 - ncat Server
+
+### Links:
+
+- https://www.apache.org/dyn/closer.lua/flink/flink-1.12.1/flink-1.12.1-bin-scala_2.11.tgz
+- https://www.oracle.com/java/technologies/javase-downloads.html
+- https://netbeans.apache.org/download/nb122/nb122.html
+- https://nmap.org/download.html
+ 
