@@ -322,4 +322,22 @@ https://use.vg/yC1f7G
 - https://www.oracle.com/java/technologies/javase-downloads.html
 - https://netbeans.apache.org/download/nb122/nb122.html
 - https://nmap.org/download.html
- 
+
+ ### Using Netbeans to create a Project:
+
+-  Onec ethe Netbeans is downloaded, Open it and click on the new Project and select the Java with Maven Project along with Project with archetype.
+- After this a pop up window will be shown where you can scroll down to flink quick start archetype or just eneter the apache.flink in the search box.
+- The eneter the project name and enter Finish to create the project.
+- Here are the screenshots for the above steps.
+![](Dixit_Netbeans_Start.png)
+
+![](D_Second.png)
+
+![](D_third.png)
+
+- After the project is created check for the pom.xml where you can find the dependencies of the flink.
+
+![](pom_d.png)
+
+
+
