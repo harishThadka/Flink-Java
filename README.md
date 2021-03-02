@@ -53,7 +53,7 @@
 - Vikas Baswarpuram: **WordCount Apache Flink Application**
 - Harish Thaka: **Sorting words on Apache Flink**
 - Rohith Chittimala: **Searching word on Apache Flink Application**
-- Deekshith Maram: **Apache Flink Application on  Aggregation**
+- Deekshith Maram: **Apache Flink Application on Finding the Even Number**
 - Sumanth reddy naidu: **Total number of words on Apache Flink**
 - Puneeth Annam: **Maximum number on Apache Flink**
 ## Vikas Baswapuram:
@@ -128,6 +128,7 @@ After the above steps you will see the pom.xml which would look like this.
 
 ![](output.png)
 
+
 ### Prerequisites:
 
 1. openjdk
@@ -150,9 +151,12 @@ After the above steps you will see the pom.xml which would look like this.
 
 ```Make sure you have only one JDK location in your path.```
 
-## Video Link:
+### Video Link:
 
 https://drive.google.com/file/d/1wDbzfOq9G3YbbAugm-R3p6cOEqaYVoTn/view?usp=sharing
+
+### Code Link:
+
 
 
 ### Resources:
@@ -236,7 +240,7 @@ ncat -l 9000
 
 ## Rohith Chittimala: 
 ### Demonstration Topic : Searching word on Apache Flink Application
-- Video Link:
+- Video Link: https://app.vidgrid.com/view/oNAN5fkDAa7q
 
 ### Prerequisites:
 
@@ -249,7 +253,7 @@ ncat -l 9000
 - Open NetBeans IDE then File then New Project.
 - Select Java with Maven then project from Archetype.
 
-![](./rohith/javaWithMaven.PNG)
+![](./rohith/javaWithMaven.png)
 
 - Click Next then search Flink and select 'flink-quickstart-java' and write project name and click on Finish.
 - Go to the ``` pom.xml ``` file of the project to verify the availabilities of flink dependencies.
@@ -271,12 +275,81 @@ ncat -l 9000
 - https://github.com/wuchong/my-flink-project
 
 
-## Deekshith Maram:
-### Demonstration Topic : Apache Flink Application on  Aggregation 
 
 ## Sumanth Reddy:
 ### Demonstration Topic : Total number of words on Apache Flink
 ### CITATION: https://github.com/apache/flink/tree/master/flink-examples/flink-examples-batch/src/main/java/org/apache/flink/examples/java/wordcount
 
 ## Puneeth Annam:
+
 ### Demonstration Topic : Maximum number on Apache Flink
+
+### Demonstration Video Link
+
+- https://app.vidgrid.com/view/iZXapRt1F7C5
+
+### Reference
+
+- https://github.com/wuchong/my-flink-project
+
+
+## Deekshith Maram:
+
+## Demonstration Topic : Apache Flink Application on finding the even numbers. 
+
+### Video Link:
+
+https://use.vg/yC1f7G
+
+
+### Overview of the Topic:
+
+- There might be a very large data set with many records where there might be a scenario to divide the dataset into two groups assuming every alternate record to a new group.
+- In such scenarios we can use a simple program where we can separate the records based on the odd and even rule. 
+- This demonstration is suited for such scenarios and I am demonstrating the same with a program which gives out all the even numbers from a given list.
+
+### Prerequisites:
+
+- Flink installed on the local machine.
+- Netbeans IDE(The IDE might be eclipse or IntelliJ. I have used Netbeans here.)
+- Maven Installed on the machine.
+- Openjdk
+- ncat Server
+
+### Links:
+
+- https://www.apache.org/dyn/closer.lua/flink/flink-1.12.1/flink-1.12.1-bin-scala_2.11.tgz
+- https://www.oracle.com/java/technologies/javase-downloads.html
+- https://netbeans.apache.org/download/nb122/nb122.html
+- https://nmap.org/download.html
+
+ ### Using Netbeans to create a Project:
+
+-  Once the Netbeans is downloaded, Open it and click on the new Project and select the Java with Maven Project along with Project with archetype.
+- After this a pop up window will be shown where you can scroll down to flink quick start archetype or just eneter the apache.flink in the search box.
+- The eneter the project name and enter Finish to create the project.
+- Here are the screenshots for the above steps.
+![](Dixit_Netbeans_Start.png)
+
+![](D_Second.png)
+
+![](D_third.png)
+
+- After the project is created check for the pom.xml where you can find the dependencies of the flink.
+
+![](pom_d.png)
+
+### Running the Code:
+
+- Here is the link to the code.
+https://github.com/harishThadka/Flink-Java/tree/main/Dixith_Code
+
+### References:
+
+- https://ci.apache.org/projects/flink/flink-docs-release-1.2/quickstart/java_api_quickstart.html
+- https://platform.netbeans.org/tutorials/nbm-maven-quickstart.html
+- https://www.varonis.com/blog/netcat-commands/
+- https://www.youtube.com/watch?v=Z3OdtQPYvIM&ab_channel=LeetcodecodinginterviewquestionsandBigData
+
+
+
