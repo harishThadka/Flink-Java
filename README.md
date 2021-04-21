@@ -278,6 +278,8 @@ ncat -l 9000
 
 ## Sumanth Reddy:
 ### Demonstration Topic : Total number of words on Apache Flink
+### video:
+- https://use.vg/KOyUIx
 ### CITATION: https://github.com/apache/flink/tree/master/flink-examples/flink-examples-batch/src/main/java/org/apache/flink/examples/java/wordcount
 
 ## Puneeth Annam:
